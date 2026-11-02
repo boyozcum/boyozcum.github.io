@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Boyozcum | Menü</title>
+<meta name="description" content="Boyozcum Unlu Mamülleri, Selçuk / İzmir. Boyoz, gevrek, börek, tatlı ve içecek menüsü. Menu in English, Deutsch, Русский, Français.">
+<meta name="theme-color" content="#F5EAD6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1E1611" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Boyozcum | Menü">
+<meta property="og:description" content="İzmir boyozu, Selçuk'ta. Menu: TR, EN, DE, RU, FR">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23F5EAD6'/%3E%3Cpath d='M16 16m0 0a2 2 0 0 1 4 0a5 5 0 0 1-9 2a8 8 0 0 1 12-9a11 11 0 0 1-2 16' fill='none' stroke='%239A5514' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,700;0,800;1,500&family=Alegreya+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Bakery","name":"Boyozcum Unlu Mamülleri","servesCuisine":["Turkish","İzmir boyoz"],"address":{"@type":"PostalAddress","addressLocality":"Selçuk","addressRegion":"İzmir","addressCountry":"TR"}}
+</script>
+<style>
+:root{
+  --dough:#F5EAD6; --crumb:#FBF5EA; --espresso:#2E1C12; --roast:#6E5040;
+  --crust:#9A5514; --crust-soft:#EBCB98; --sesame:#E3CFA9; --olive:#556128; --olive-soft:#E3E6C8;
+  --shadow:0 1px 0 rgba(46,28,18,.06), 0 8px 24px -12px rgba(46,28,18,.25);
+  --serif:"Alegreya", Georgia, "Times New Roman", serif;
+  --sans:"Alegreya Sans", "Segoe UI", Roboto, system-ui, sans-serif;
+  --bar-h:52px;
+  color-scheme: light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --dough:#1E1611; --crumb:#2A1F18; --espresso:#F2E6D3; --roast:#C4AA90;
+    --crust:#E2A157; --crust-soft:#4A3420; --sesame:#43342A; --olive:#A9B86A; --olive-soft:#33361F;
+    --shadow:0 8px 24px -12px rgba(0,0,0,.6);
+    color-scheme: dark;
+  }
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + var(--bar-h) + 12px);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--dough);color:var(--espresso);font-family:var(--sans);font-size:17px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--dough)}
+button,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--crust);outline-offset:2px;border-radius:6px}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+[hidden]{display:none !important}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;overflow:hidden;padding:40px 0 28px}
+.hero .wrap{position:relative;z-index:1}
+.spiral{position:absolute;right:-90px;top:-40px;width:340px;height:340px;z-index:0;pointer-events:none}
+.spiral path{fill:none;stroke-linecap:round;stroke-linejoin:round}
+.spiral .coil{stroke:var(--crust-soft);stroke-width:22}
+.spiral .edge{stroke:var(--crust);stroke-width:2.5;opacity:.55}
+@media (min-width:700px){.spiral{right:-40px;top:-30px;width:420px;height:420px}}
+.brand{font-family:var(--serif);font-weight:800;font-size:clamp(3rem,13vw,5.4rem);line-height:.9;letter-spacing:-.02em;margin:0}
+.brand-sub{font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--roast);margin:6px 0 0}
+.tagline{font-family:var(--serif);font-weight:500;font-size:clamp(1.35rem,4.8vw,1.75rem);line-height:1.2;margin:22px 0 0;max-width:15em}
+.status{display:inline-flex;align-items:center;gap:8px;margin:14px 0 0;font-weight:500;font-size:.95rem}
+.status .dot{width:9px;height:9px;border-radius:50%;background:var(--roast)}
+.status.is-open .dot{background:var(--olive)}
+.about{margin-top:18px;max-width:34em;background:var(--crumb);border-radius:16px;box-shadow:var(--shadow)}
+.about summary{cursor:pointer;list-style:none;padding:14px 18px;font-weight:700;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.about summary::-webkit-details-marker{display:none}
+.about summary svg{transition:transform .2s ease;flex:none}
+.about[open] summary svg{transform:rotate(180deg)}
+.about p{margin:0;padding:0 18px 16px;font-family:var(--serif);font-size:1.05rem;line-height:1.6;color:var(--roast)}
+
+/* ---------- Notices ---------- */
+.notice{margin:0 0 16px;padding:12px 16px;border-radius:12px;background:var(--crust-soft);color:var(--espresso);font-size:.95rem;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.notice button{border:0;background:var(--espresso);color:var(--dough);padding:6px 14px;border-radius:999px;cursor:pointer;font-weight:700}
+
+/* ---------- Search + filters ---------- */
+.tools{padding-top:4px;padding-bottom:14px}
+.search{position:relative}
+.search input{width:100%;height:48px;border-radius:14px;border:1.5px solid var(--sesame);background:var(--crumb);padding:0 44px 0 44px;font-size:1rem}
+.search input::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
+.search input::placeholder{color:var(--roast);opacity:.85}
+.search input:focus{outline:none;border-color:var(--crust)}
+.search .icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--roast)}
+.search .clear{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:36px;height:36px;border:0;border-radius:10px;background:transparent;cursor:pointer;color:var(--roast);display:grid;place-items:center}
+.chips{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.chip{border:1.5px solid var(--sesame);background:transparent;border-radius:999px;padding:6px 14px;font-size:.95rem;font-weight:500;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--espresso);border-color:var(--espresso);color:var(--dough)}
+
+/* ---------- Sticky category bar ---------- */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--dough);border-bottom:1.5px solid var(--sesame)}
+.bar .wrap{display:flex;align-items:center;gap:8px;height:var(--bar-h);padding-right:12px}
+.tabs{flex:1;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;scroll-behavior:smooth;mask-image:linear-gradient(90deg,#000 88%,transparent)}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;border:0;background:transparent;padding:8px 12px;border-radius:999px;font-weight:500;font-size:.98rem;cursor:pointer;color:var(--roast);white-space:nowrap}
+.tab[aria-current="true"]{background:var(--crust-soft);color:var(--espresso);font-weight:700}
+.lang-btn{flex:none;display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--sesame);background:var(--crumb);border-radius:999px;height:36px;padding:0 12px;cursor:pointer;font-weight:700;font-size:.9rem}
+
+/* ---------- Menu ---------- */
+main{padding:8px 0 40px}
+.cat{padding-top:26px}
+.cat-head{display:flex;align-items:center;gap:12px;margin:0 0 6px}
+.cat-head svg{color:var(--crust);flex:none}
+.cat-title{font-family:var(--serif);font-weight:700;font-size:1.65rem;margin:0;line-height:1.2}
+.items{list-style:none;margin:0;padding:0}
+.item{display:grid;grid-template-columns:1fr auto;gap:4px 14px;padding:16px 0;border-bottom:1px dashed var(--sesame);align-items:start}
+.item.has-photo{grid-template-columns:76px 1fr auto}
+.item:last-child{border-bottom:0}
+.thumb{width:76px;height:76px;border-radius:14px;object-fit:cover;background:var(--crust-soft);grid-row:span 1}
+.item-head{display:flex;align-items:baseline;gap:8px}
+.item-name{font-family:var(--serif);font-weight:700;font-size:1.2rem;line-height:1.25;margin:0}
+.leader{flex:1;min-width:12px;border-bottom:2px dotted var(--sesame);transform:translateY(-4px)}
+.price{font-family:var(--serif);font-weight:700;font-size:1.15rem;color:var(--crust);white-space:nowrap;font-variant-numeric:tabular-nums}
+.item-desc{margin:4px 0 0;color:var(--roast);font-size:.98rem;line-height:1.45;max-width:36em}
+.meta{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-top:8px;font-size:.85rem}
+.tag{padding:2px 9px;border-radius:999px;font-weight:700;background:var(--crust-soft);color:var(--espresso)}
+.tag.veg{background:var(--olive-soft);color:var(--olive)}
+.allergens{color:var(--roast)}
+.item-action{display:flex;align-items:center;padding-top:2px}
+.add{width:40px;height:40px;border-radius:12px;border:1.5px solid var(--espresso);background:transparent;cursor:pointer;display:grid;place-items:center}
+.add:active{transform:scale(.94)}
+.stepper{display:flex;align-items:center;border-radius:12px;background:var(--espresso);color:var(--dough);height:40px}
+.stepper button{width:36px;height:40px;border:0;background:transparent;color:inherit;cursor:pointer;display:grid;place-items:center}
+.stepper output{min-width:20px;text-align:center;font-weight:700}
+.is-out .item-name,.is-out .item-desc,.is-out .price{opacity:.5}
+.is-out .price{text-decoration:line-through}
+.sold{font-size:.85rem;font-weight:700;color:var(--roast);border:1.5px solid var(--sesame);border-radius:999px;padding:4px 10px;white-space:nowrap}
+.empty{text-align:center;padding:40px 0;color:var(--roast)}
+.empty p{margin:0 0 12px}
+.empty button,.error button{border:1.5px solid var(--espresso);background:transparent;border-radius:999px;padding:8px 18px;cursor:pointer;font-weight:700}
+.loading{padding:40px 0;text-align:center;color:var(--roast)}
+
+/* ---------- Footer ---------- */
+footer{border-top:1.5px solid var(--sesame);padding:28px 0 calc(110px + env(safe-area-inset-bottom,0px))}
+.actions{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:22px}
+.action{display:flex;align-items:center;gap:10px;padding:14px 16px;border-radius:14px;background:var(--crumb);box-shadow:var(--shadow);color:var(--espresso);text-decoration:none;font-weight:700}
+.action svg{color:var(--crust);flex:none}
+.notes p{margin:0 0 8px;color:var(--roast);font-size:.95rem}
+.sign{margin-top:22px;font-family:var(--serif);font-style:italic;color:var(--roast)}
+
+/* ---------- Cart bar ---------- */
+.cartbar{position:fixed;left:0;right:0;bottom:0;z-index:25;padding:0 12px calc(12px + env(safe-area-inset-bottom,0px))}
+.cartbar button{display:flex;width:100%;max-width:736px;margin:0 auto;align-items:center;justify-content:space-between;gap:12px;border:0;border-radius:16px;background:var(--espresso);color:var(--dough);padding:14px 18px;font-weight:700;font-size:1.02rem;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.5)}
+.cartbar .count{background:var(--crust);color:#fff;border-radius:999px;padding:2px 10px;font-size:.9rem}
+@media (prefers-color-scheme: dark){.cartbar .count{color:#1E1611}}
+
+/* ---------- Dialogs ---------- */
+dialog{border:0;padding:0;background:var(--crumb);color:var(--espresso);width:100%;max-width:560px;max-height:88vh;margin:auto auto 0;border-radius:22px 22px 0 0;box-shadow:0 -10px 40px -10px rgba(0,0,0,.4)}
+@media (min-width:640px){dialog{margin:auto;border-radius:22px}}
+dialog::backdrop{background:rgba(30,22,17,.55)}
+dialog[open]{animation:sheet .22s ease-out}
+@keyframes sheet{from{transform:translateY(24px);opacity:.6}to{transform:none;opacity:1}}
+.sheet{padding:20px 20px calc(20px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;max-height:88vh}
+.sheet-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.sheet-head h2{font-family:var(--serif);font-size:1.5rem;margin:0}
+.x{width:40px;height:40px;border:0;border-radius:12px;background:var(--dough);cursor:pointer;display:grid;place-items:center}
+.sheet-body{overflow:auto;flex:1}
+.langs{list-style:none;margin:0;padding:0}
+.langs button{width:100%;text-align:left;display:flex;justify-content:space-between;align-items:center;border:0;background:transparent;padding:14px 8px;border-bottom:1px dashed var(--sesame);font-size:1.1rem;cursor:pointer}
+.langs button[aria-current="true"]{font-weight:700;color:var(--crust)}
+.hint{margin:0 0 12px;color:var(--roast);font-size:.95rem}
+.lines{list-style:none;margin:0;padding:0}
+.line{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:10px 0;border-bottom:1px dashed var(--sesame)}
+.line .n{font-weight:700}
+.line .p{font-variant-numeric:tabular-nums;color:var(--roast);min-width:60px;text-align:right}
+.field{display:block;margin-top:14px}
+.field span{display:block;font-size:.9rem;font-weight:700;margin-bottom:6px}
+.field input,.field textarea{width:100%;border:1.5px solid var(--sesame);background:var(--dough);border-radius:12px;padding:10px 12px;font-size:1rem}
+.field textarea{min-height:70px;resize:vertical}
+.field input:focus,.field textarea:focus{outline:none;border-color:var(--crust)}
+.total{display:flex;justify-content:space-between;font-family:var(--serif);font-size:1.3rem;font-weight:700;margin:16px 0 4px}
+.sheet-foot{padding-top:12px;display:flex;flex-direction:column;gap:8px}
+.send{display:flex;align-items:center;justify-content:center;gap:10px;background:#1F7A4C;color:#fff;text-decoration:none;font-weight:700;padding:14px;border-radius:14px;font-size:1.05rem}
+.ghost{border:0;background:transparent;color:var(--roast);padding:8px;cursor:pointer;text-decoration:underline}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation:none !important;transition:none !important;scroll-behavior:auto !important}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <svg class="spiral" viewBox="0 0 400 400" aria-hidden="true">
+    <path class="coil" id="coil"></path>
+    <path class="edge" id="coilEdge"></path>
+  </svg>
+  <div class="wrap">
+    <p class="brand">Boyozcum</p>
+    <p class="brand-sub">Unlu Mamülleri, Selçuk</p>
+    <h1 class="tagline" data-i18n="tagline"></h1>
+    <p class="status" id="status" hidden><span class="dot"></span><span id="statusText"></span></p>
+    <details class="about">
+      <summary><span data-i18n="whatIs"></span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <p data-i18n="whatIsText"></p>
+    </details>
+  </div>
+</header>
+
+<div class="wrap tools">
+  <div id="notice"></div>
+  <div class="search">
+    <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+    <input id="q" type="search" autocomplete="off" enterkeyhint="search">
+    <button class="clear" id="qClear" type="button" hidden>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="chips" id="chips"></div>
+</div>
+
+<nav class="bar" id="bar">
+  <div class="wrap">
+    <div class="tabs" id="tabs"></div>
+    <button class="lang-btn" id="langBtn" type="button">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>
+      <span id="langCode">TR</span>
+    </button>
+  </div>
+</nav>
+
+<main class="wrap" id="menu" aria-live="polite"><p class="loading">…</p></main>
+
+<footer>
+  <div class="wrap">
+    <div class="actions" id="actions"></div>
+    <div class="notes">
+      <p data-i18n="taxNote"></p>
+      <p data-i18n="allergenNote"></p>
+    </div>
+    <p class="sign">Boyozcum Unlu Mamülleri</p>
+  </div>
+</footer>
+
+<div class="cartbar" id="cartbar" hidden>
+  <button type="button" id="cartOpen"><span><span class="count" id="cartCount"></span> <span id="cartLabel"></span></span><span id="cartTotal"></span></button>
+</div>
+
+<dialog id="langDialog">
+  <div class="sheet">
+    <div class="sheet-head"><h2 data-i18n="language"></h2><button class="x" type="button" data-close data-i18n-label="close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <ul class="langs" id="langList"></ul>
+  </div>
+</dialog>
+
+<dialog id="cartDialog">
+  <div class="sheet">
+    <div class="sheet-head"><h2 data-i18n="orderTitle"></h2><button class="x" type="button" data-close data-i18n-label="close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div class="sheet-body">
+      <p class="hint" data-i18n="orderHint"></p>
+      <ul class="lines" id="lines"></ul>
+      <label class="field"><span data-i18n="pickup"></span><input type="time" id="pickup"></label>
+      <label class="field"><span data-i18n="note"></span><textarea id="note" maxlength="300"></textarea></label>
+      <div class="total"><span data-i18n="total"></span><span id="sheetTotal"></span></div>
+      <p class="hint" data-i18n="payNote"></p>
+    </div>
+    <div class="sheet-foot">
+      <a class="send" id="send" target="_blank" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+        <span data-i18n="send"></span>
+      </a>
+      <button class="ghost" type="button" id="clearCart" data-i18n="clearOrder"></button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+/* =====================================================================
+   AYARLAR — sadece bu bölümü düzenleyin
+   ===================================================================== */
+const CONFIG = {
+  // Google E-Tablo > Dosya > Paylaş > Web'de yayınla > "urunler" sayfası > CSV
+  // Boş bırakılırsa sayfadaki örnek menü gösterilir.
+  SHEET_CSV_URL: "",
+
+  // WhatsApp sipariş numarası: ülke kodu ile, boşluksuz, + olmadan. Örn: "905321234567"
+  // Boş bırakılırsa sipariş (sepet) özelliği gizlenir.
+  WHATSAPP: "",
+
+  // Telefon (Ara butonu). Örn: "+905321234567". Boşsa buton gizlenir.
+  PHONE: "",
+
+  // Google İşletme Profili > "Yorum iste" linki. Boşsa buton gizlenir.
+  GOOGLE_REVIEW_URL: "",
+
+  // Google Haritalar'da işletmenin "Paylaş" linki. Boşsa isimle arama yapılır.
+  MAPS_URL: "",
+  MAPS_QUERY: "Boyozcum Unlu Mamülleri Selçuk İzmir",
+
+  // Instagram kullanıcı adı (@ olmadan). Boşsa buton gizlenir.
+  INSTAGRAM: "boyozcum_s",
+
+  // Çalışma saatleri (İstanbul saati). Örn: { open: "04:00", close: "21:00" }
+  // null bırakılırsa "Şu an açık/kapalı" bilgisi gösterilmez.
+  HOURS: null
+};
+/* ===================================================================== */
+
+const DEMO_CSV = "kategori,sira,durum,ad_tr,ad_en,ad_de,ad_ru,ad_fr,aciklama_tr,aciklama_en,aciklama_de,aciklama_ru,aciklama_fr,fiyat,alerjenler,etiketler,foto\nboyoz,1,aktif,Sade boyoz,Plain boyoz,Boyoz natur,Бойоз классический,Boyoz nature,\"İnce katlı, çıtır, fırından sıcak\",\"Thin flaky layers, warm from the oven\",\"Hauchdünne, knusprige Schichten, ofenwarm\",\"Тонкие хрустящие слои, тёплый из печи\",\"Fines couches croustillantes, tout chaud sorti du four\",20,gluten susam,vejetaryen,\nboyoz,2,aktif,Peynirli boyoz,Cheese boyoz,Boyoz mit Käse,Бойоз с сыром,Boyoz au fromage,Beyaz peynirli,Filled with white cheese,Mit Weißkäse gefüllt,С белым сыром,Garni de fromage blanc,25,gluten susam sut,vejetaryen,\nboyoz,3,aktif,Ispanaklı boyoz,Spinach boyoz,Boyoz mit Spinat,Бойоз со шпинатом,Boyoz aux épinards,Ispanak ve peynirli,Spinach and cheese,Spinat und Käse,Шпинат и сыр,Épinards et fromage,25,gluten susam sut,vejetaryen,\nboyoz,4,aktif,Tahinli boyoz,Tahini boyoz,Boyoz mit Tahin,Бойоз с тахини,Boyoz au tahini,\"Bol tahinli, misafirlerimizin favorisi\",\"Rich in tahini, a guest favourite\",\"Mit viel Tahin, ein Liebling unserer Gäste\",\"С щедрым тахини, любимец наших гостей\",\"Généreux en tahini, le préféré de nos clients\",25,gluten susam,populer vejetaryen,\nboyoz,5,aktif,Çikolatalı boyoz,Chocolate boyoz,Schoko-Boyoz,Бойоз с шоколадом,Boyoz au chocolat,İçi akışkan çikolatalı,With a melting chocolate filling,Mit schmelzender Schokofüllung,С тающей шоколадной начинкой,Fourré au chocolat fondant,30,gluten susam sut,populer vejetaryen,\nkahvalti,1,aktif,Boyoz tabağı,Boyoz plate,Boyoz-Teller,Тарелка бойоза,Assiette boyoz,\"Sade boyoz, haşlanmış yumurta ve çay; İzmir'in klasik sabahı\",\"Plain boyoz with a boiled egg and tea, the classic İzmir morning\",\"Boyoz mit gekochtem Ei und Tee, der klassische Morgen in İzmir\",\"Бойоз с варёным яйцом и чаем, классическое утро Измира\",\"Boyoz, œuf dur et thé, le matin classique d'İzmir\",45,gluten susam yumurta,populer,\nkahvalti,2,aktif,Gevrek tabağı,Simit plate,Simit-Teller,Тарелка симита,Assiette simit,\"Gevrek, beyaz peynir, domates ve zeytin\",\"Simit with white cheese, tomato and olives\",\"Simit mit Weißkäse, Tomaten und Oliven\",\"Симит с белым сыром, помидорами и оливками\",\"Simit avec fromage blanc, tomates et olives\",70,gluten susam sut,vejetaryen,\ngevrek,1,aktif,Gevrek (simit),Simit (sesame ring),Simit (Sesamring),Симит (бублик с кунжутом),Simit (couronne au sésame),\"İzmir usulü, pekmezli ve susamlı\",İzmir-style sesame ring dipped in grape molasses,\"Sesamring nach İzmir-Art, in Traubensirup getaucht\",Измирский бублик в виноградной патоке и кунжуте,\"Couronne au sésame façon İzmir, trempée dans la mélasse de raisin\",15,gluten susam,vegan,\ngevrek,2,aktif,Peynirli poğaça,Cheese poğaça,Poğaça mit Käse,Погача с сыром,Poğaça au fromage,\"Yumuşak, beyaz peynirli\",Soft savoury bun with white cheese,Weiches Hefegebäck mit Weißkäse,Мягкая булочка с белым сыром,Petit pain moelleux au fromage blanc,20,gluten sut yumurta,vejetaryen,\ngevrek,3,aktif,Zeytinli poğaça,Olive poğaça,Poğaça mit Oliven,Погача с оливками,Poğaça aux olives,Siyah zeytin ezmeli,With black olive paste,Mit schwarzer Olivenpaste,С пастой из чёрных оливок,À la pâte d'olives noires,20,gluten sut yumurta,vejetaryen,\ngevrek,4,aktif,Açma,Açma (soft roll),Açma (weiches Hefegebäck),Ачма (мягкая сдоба),Açma (brioche roulée),Yumuşacık ve tereyağlı,Soft and buttery,Weich und buttrig,Мягкая и сливочная,Moelleuse et beurrée,18,gluten sut yumurta,vejetaryen,\nborek,1,aktif,Su böreği,Su böreği (layered pie),Su Böreği (Schichtpastete),Су бёрек (слоёный пирог),Su böreği (feuilleté),Haşlanmış yufka katları arasında peynir,Boiled pastry layers with cheese,Gekochte Teigschichten mit Käse,Отварные слои теста с сыром,\"Couches de pâte pochées, au fromage\",60,gluten sut yumurta,populer vejetaryen,\nborek,2,aktif,Kıymalı börek,Minced meat börek,Börek mit Hackfleisch,Бёрек с мясным фаршем,Börek à la viande hachée,Baharatlı kıymalı,With spiced minced meat,Mit gewürztem Hackfleisch,С пряным фаршем,À la viande hachée épicée,70,gluten sut yumurta,,\nborek,3,aktif,Pişi,Pişi (fried dough),Pişi (frittierter Teig),Пиши (жареное тесто),Pişi (beignet salé),Peynir ve maydanozlu,With cheese and parsley,Mit Käse und Petersilie,С сыром и петрушкой,Au fromage et au persil,25,gluten sut,vejetaryen,\ntatli,1,aktif,Trileçe,Trileçe (three-milk cake),Trileçe (Drei-Milch-Kuchen),Трилече (торт «три молока»),Trileçe (gâteau aux trois laits),\"Üç sütlü, karamel soslu\",\"Soaked in three milks, topped with caramel\",\"In drei Milchsorten getränkt, mit Karamell\",\"Пропитан тремя видами молока, с карамелью\",\"Imbibé de trois laits, nappé de caramel\",60,gluten sut yumurta,populer vejetaryen,\ntatli,2,aktif,Islak kek,Chocolate wet cake,Saftiger Schokokuchen,Влажный шоколадный кекс,Gâteau moelleux au chocolat,\"Kakao soslu, nemli\",Moist cocoa cake with chocolate sauce,\"Saftig, mit Schokoladensoße\",Пропитан шоколадным соусом,\"Fondant, nappé de sauce chocolat\",50,gluten sut yumurta,vejetaryen,\nicecek,1,aktif,Çay,Turkish tea,Türkischer Tee,Турецкий чай,Thé turc,\"Demli, ince belli bardakta\",\"Brewed strong, served in a tulip glass\",\"Kräftig, im Tulpenglas serviert\",\"Крепкий, в стаканчике-тюльпане\",\"Bien infusé, servi en verre tulipe\",10,,vegan,\nicecek,2,aktif,Türk kahvesi,Turkish coffee,Türkischer Mokka,Кофе по-турецки,Café turc,Lokum ile,Served with Turkish delight,Mit Lokum serviert,Подаётся с лукумом,Servi avec un loukoum,50,,,\nicecek,3,aktif,Ayran,Ayran (yogurt drink),Ayran (Joghurtgetränk),Айран (йогуртовый напиток),Ayran (boisson au yaourt),Soğuk ve köpüklü,Chilled and frothy,Kalt und schaumig,\"Холодный, с пенкой\",Frais et mousseux,20,sut,vejetaryen,\nicecek,4,aktif,Taze portakal suyu,Fresh orange juice,Frisch gepresster Orangensaft,Свежевыжатый апельсиновый сок,Jus d'orange pressé,Her gün taze sıkılır,Squeezed fresh every day,Täglich frisch gepresst,Выжимаем каждый день,Pressé chaque jour,50,,vegan,\n";
+
+const LANGS = [
+  {code:"tr", name:"Türkçe", locale:"tr-TR"},
+  {code:"en", name:"English", locale:"en-GB"},
+  {code:"de", name:"Deutsch", locale:"de-DE"},
+  {code:"ru", name:"Русский", locale:"ru-RU"},
+  {code:"fr", name:"Français", locale:"fr-FR"}
+];
+
+const I18N = {
+  tr:{
+    title:"Menü", tagline:"Selçuk'ta İzmir boyozu",
+    whatIs:"Boyoz nedir?",
+    whatIsText:"Boyoz, İzmir'e özgü, ince katlı ve çıtır bir hamur işidir. Sefarad Yahudilerinin mutfağından gelir; un, ayçiçek yağı ve biraz tahinle yapılır. İzmirliler onu sabahın erken saatlerinde haşlanmış yumurta ve çayla yer.",
+    search:"Menüde ara", clearSearch:"Aramayı temizle",
+    noResults:"Bu aramayla eşleşen ürün yok. Başka bir kelime deneyin.", showAll:"Tüm menüyü göster",
+    soldOut:"Tükendi", add:"{name} ekle", more:"Bir tane daha", less:"Bir tane eksilt",
+    contains:"İçerir: {list}", categories:"Kategoriler",
+    viewOrder:"Siparişi gör", orderTitle:"Siparişiniz",
+    orderHint:"Siparişiniz dükkâna WhatsApp mesajı olarak gider. Hazır olunca sıra beklemeden alabilirsiniz.",
+    pickup:"Teslim alma saati (isteğe bağlı)", note:"Not (isteğe bağlı)",
+    total:"Toplam", send:"WhatsApp ile gönder", clearOrder:"Siparişi temizle", close:"Kapat",
+    payNote:"Ödeme dükkânda yapılır.",
+    taxNote:"Fiyatlara KDV dahildir. Fiyatlar Türk lirası (₺) cinsindendir.",
+    allergenNote:"Alerjiniz varsa lütfen siparişten önce personelimize sorun.",
+    directions:"Yol tarifi", review:"Bizi değerlendirin", call:"Ara", instagram:"Instagram",
+    openNow:"Şu an açık", closedNow:"Şu an kapalı", opensAt:"Açılış saati {t}", closesAt:"Kapanış saati {t}",
+    demo:"Örnek menü gösteriliyor. Ürünler ve fiyatlar gerçek değildir.",
+    offline:"Menü güncellenemedi. En son kaydedilen menü gösteriliyor.",
+    loadError:"Menü yüklenemedi. İnternet bağlantınızı kontrol edip yeniden deneyin.", retry:"Yeniden dene",
+    language:"Dil"
+  },
+  en:{
+    title:"Menu", tagline:"İzmir boyoz, baked in Selçuk",
+    whatIs:"What is boyoz?",
+    whatIsText:"Boyoz is İzmir's own flaky pastry, made of paper-thin, crisp layers. It comes from Sephardic Jewish cooking and is made with flour, sunflower oil and a little tahini. Locals eat it early in the morning with a boiled egg and a glass of tea.",
+    search:"Search the menu", clearSearch:"Clear search",
+    noResults:"No items match this search. Try another word.", showAll:"Show the full menu",
+    soldOut:"Sold out", add:"Add {name}", more:"Add one more", less:"Remove one",
+    contains:"Contains: {list}", categories:"Categories",
+    viewOrder:"View order", orderTitle:"Your order",
+    orderHint:"Your order is sent to the shop as a WhatsApp message. Pick it up when it's ready, without queuing.",
+    pickup:"Pickup time (optional)", note:"Note (optional)",
+    total:"Total", send:"Send via WhatsApp", clearOrder:"Clear order", close:"Close",
+    payNote:"You pay at the shop.",
+    taxNote:"Prices include VAT and are in Turkish lira (₺).",
+    allergenNote:"If you have an allergy, please ask our staff before ordering.",
+    directions:"Directions", review:"Rate us on Google", call:"Call", instagram:"Instagram",
+    openNow:"Open now", closedNow:"Closed now", opensAt:"Opens at {t}", closesAt:"Closes at {t}",
+    demo:"Sample menu. Items and prices are not real.",
+    offline:"Couldn't refresh the menu. Showing the last saved version.",
+    loadError:"The menu couldn't load. Check your internet connection and try again.", retry:"Try again",
+    language:"Language"
+  },
+  de:{
+    title:"Speisekarte", tagline:"Boyoz aus İzmir, gebacken in Selçuk",
+    whatIs:"Was ist Boyoz?",
+    whatIsText:"Boyoz ist ein typisches Gebäck aus İzmir mit hauchdünnen, knusprigen Schichten. Es stammt aus der sephardisch-jüdischen Küche und wird aus Mehl, Sonnenblumenöl und etwas Tahin gemacht. In İzmir isst man es früh am Morgen mit einem gekochten Ei und einem Glas Tee.",
+    search:"Speisekarte durchsuchen", clearSearch:"Suche löschen",
+    noResults:"Keine passenden Produkte. Versuchen Sie ein anderes Wort.", showAll:"Ganze Speisekarte zeigen",
+    soldOut:"Ausverkauft", add:"{name} hinzufügen", more:"Eins mehr", less:"Eins weniger",
+    contains:"Enthält: {list}", categories:"Kategorien",
+    viewOrder:"Bestellung ansehen", orderTitle:"Ihre Bestellung",
+    orderHint:"Ihre Bestellung geht als WhatsApp-Nachricht an uns. Holen Sie sie ohne Anstehen ab, sobald sie fertig ist.",
+    pickup:"Abholzeit (optional)", note:"Anmerkung (optional)",
+    total:"Summe", send:"Per WhatsApp senden", clearOrder:"Bestellung leeren", close:"Schließen",
+    payNote:"Bezahlt wird im Laden.",
+    taxNote:"Alle Preise inkl. MwSt., in Türkischer Lira (₺).",
+    allergenNote:"Bei Allergien fragen Sie bitte vor der Bestellung unser Personal.",
+    directions:"Route", review:"Auf Google bewerten", call:"Anrufen", instagram:"Instagram",
+    openNow:"Jetzt geöffnet", closedNow:"Jetzt geschlossen", opensAt:"Öffnet um {t}", closesAt:"Schließt um {t}",
+    demo:"Beispielmenü. Produkte und Preise sind nicht echt.",
+    offline:"Die Speisekarte konnte nicht aktualisiert werden. Zuletzt gespeicherte Version.",
+    loadError:"Die Speisekarte konnte nicht geladen werden. Prüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.", retry:"Erneut versuchen",
+    language:"Sprache"
+  },
+  ru:{
+    title:"Меню", tagline:"Измирский бойоз, испечённый в Сельчуке",
+    whatIs:"Что такое бойоз?",
+    whatIsText:"Бойоз — традиционная выпечка Измира из тончайших хрустящих слоёв теста. Рецепт пришёл из кухни сефардских евреев: мука, подсолнечное масло и немного тахини. Местные жители едят его рано утром с варёным яйцом и стаканом чая.",
+    search:"Поиск по меню", clearSearch:"Очистить поиск",
+    noResults:"Ничего не найдено. Попробуйте другое слово.", showAll:"Показать всё меню",
+    soldOut:"Закончилось", add:"Добавить: {name}", more:"Ещё одну", less:"Убрать одну",
+    contains:"Содержит: {list}", categories:"Категории",
+    viewOrder:"Посмотреть заказ", orderTitle:"Ваш заказ",
+    orderHint:"Заказ отправляется в пекарню сообщением в WhatsApp. Заберите его без очереди, когда он будет готов.",
+    pickup:"Время получения (необязательно)", note:"Комментарий (необязательно)",
+    total:"Итого", send:"Отправить в WhatsApp", clearOrder:"Очистить заказ", close:"Закрыть",
+    payNote:"Оплата в пекарне.",
+    taxNote:"Цены указаны в турецких лирах (₺) с учётом НДС.",
+    allergenNote:"Если у вас аллергия, пожалуйста, уточните у персонала перед заказом.",
+    directions:"Маршрут", review:"Оставить отзыв в Google", call:"Позвонить", instagram:"Instagram",
+    openNow:"Сейчас открыто", closedNow:"Сейчас закрыто", opensAt:"Откроется в {t}", closesAt:"Закроется в {t}",
+    demo:"Пример меню. Товары и цены ненастоящие.",
+    offline:"Не удалось обновить меню. Показана последняя сохранённая версия.",
+    loadError:"Не удалось загрузить меню. Проверьте подключение к интернету и попробуйте снова.", retry:"Повторить",
+    language:"Язык"
+  },
+  fr:{
+    title:"Carte", tagline:"Le boyoz d'İzmir, cuit à Selçuk",
+    whatIs:"Qu'est-ce que le boyoz\u202f?",
+    whatIsText:"Le boyoz est une pâtisserie typique d'İzmir, faite de couches très fines et croustillantes. Il vient de la cuisine juive séfarade et se prépare avec de la farine, de l'huile de tournesol et un peu de tahini. À İzmir, on le mange tôt le matin avec un œuf dur et un verre de thé.",
+    search:"Rechercher dans la carte", clearSearch:"Effacer la recherche",
+    noResults:"Aucun produit ne correspond. Essayez un autre mot.", showAll:"Afficher toute la carte",
+    soldOut:"Épuisé", add:"Ajouter {name}", more:"En ajouter un", less:"En retirer un",
+    contains:"Contient\u202f: {list}", categories:"Catégories",
+    viewOrder:"Voir la commande", orderTitle:"Votre commande",
+    orderHint:"Votre commande nous est envoyée par WhatsApp. Récupérez-la sans faire la queue dès qu'elle est prête.",
+    pickup:"Heure de retrait (facultatif)", note:"Remarque (facultatif)",
+    total:"Total", send:"Envoyer via WhatsApp", clearOrder:"Vider la commande", close:"Fermer",
+    payNote:"Le paiement se fait en boutique.",
+    taxNote:"Prix TTC, en livres turques (₺).",
+    allergenNote:"En cas d'allergie, merci de demander à notre équipe avant de commander.",
+    directions:"Itinéraire", review:"Laisser un avis Google", call:"Appeler", instagram:"Instagram",
+    openNow:"Ouvert", closedNow:"Fermé", opensAt:"Ouvre à {t}", closesAt:"Ferme à {t}",
+    demo:"Carte d'exemple. Produits et prix fictifs.",
+    offline:"Impossible d'actualiser la carte. Dernière version enregistrée affichée.",
+    loadError:"La carte n'a pas pu se charger. Vérifiez votre connexion internet et réessayez.", retry:"Réessayer",
+    language:"Langue"
+  }
+};
+
+const CATEGORIES = [
+  {key:"boyoz",    icon:"spiral", name:{tr:"Boyozlar", en:"Boyoz", de:"Boyoz", ru:"Бойоз", fr:"Boyoz"}},
+  {key:"kahvalti", icon:"egg",    name:{tr:"Kahvaltılık", en:"Breakfast", de:"Frühstück", ru:"Завтрак", fr:"Petit-déjeuner"}},
+  {key:"gevrek",   icon:"ring",   name:{tr:"Gevrek ve poğaça", en:"Simit & buns", de:"Simit & Gebäck", ru:"Симит и булочки", fr:"Simit & petits pains"}},
+  {key:"borek",    icon:"layers", name:{tr:"Börek ve pişi", en:"Börek & savoury", de:"Börek & Herzhaftes", ru:"Бёрек и закуски", fr:"Börek & salés"}},
+  {key:"tatli",    icon:"slice",  name:{tr:"Tatlılar", en:"Desserts", de:"Desserts", ru:"Десерты", fr:"Desserts"}},
+  {key:"icecek",   icon:"tea",    name:{tr:"İçecekler", en:"Drinks", de:"Getränke", ru:"Напитки", fr:"Boissons"}}
+];
+
+const ALLERGENS = {
+  gluten:{tr:"gluten", en:"gluten", de:"Gluten", ru:"глютен", fr:"gluten"},
+  susam:{tr:"susam", en:"sesame", de:"Sesam", ru:"кунжут", fr:"sésame"},
+  sut:{tr:"süt", en:"milk", de:"Milch", ru:"молоко", fr:"lait"},
+  yumurta:{tr:"yumurta", en:"egg", de:"Ei", ru:"яйцо", fr:"œuf"},
+  findik:{tr:"fındık", en:"hazelnut", de:"Haselnuss", ru:"фундук", fr:"noisette"},
+  ceviz:{tr:"ceviz", en:"walnut", de:"Walnuss", ru:"грецкий орех", fr:"noix"},
+  fistik:{tr:"fıstık", en:"pistachio", de:"Pistazie", ru:"фисташки", fr:"pistache"},
+  soya:{tr:"soya", en:"soy", de:"Soja", ru:"соя", fr:"soja"}
+};
+
+const TAGS = {
+  populer:{tr:"Popüler", en:"Popular", de:"Beliebt", ru:"Популярное", fr:"Populaire"},
+  yeni:{tr:"Yeni", en:"New", de:"Neu", ru:"Новинка", fr:"Nouveau"},
+  vejetaryen:{tr:"Vejetaryen", en:"Vegetarian", de:"Vegetarisch", ru:"Вегетарианское", fr:"Végétarien"},
+  vegan:{tr:"Vegan", en:"Vegan", de:"Vegan", ru:"Веганское", fr:"Végan"}
+};
+const FILTERS = ["populer","vejetaryen","vegan"];
+
+const LANG_NAME_TR = {tr:"Türkçe", en:"İngilizce", de:"Almanca", ru:"Rusça", fr:"Fransızca"};
+
+/* ---------------- Helpers ---------------- */
+const $ = (s, r=document) => r.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const store = {
+  get(k){ try{ return JSON.parse(localStorage.getItem(k)); }catch(e){ return null; } },
+  set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+};
+const norm = s => String(s||"").toLocaleLowerCase("tr").replace(/ı/g,"i").normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+
+let lang = "tr";
+let items = [];
+let cart = new Map(Object.entries(store.get("bz-cart") || {}));
+let activeFilters = new Set();
+let source = "demo";
+
+function t(key, vars){
+  let s = (I18N[lang] && I18N[lang][key]) ?? I18N.en[key] ?? key;
+  if (vars) for (const k in vars) s = s.replace("{"+k+"}", vars[k]);
+  return s;
+}
+function plural(n){
+  switch(lang){
+    case "tr": return n + " ürün";
+    case "en": return n + (n===1 ? " item" : " items");
+    case "de": return n + " Artikel";
+    case "fr": return n + (n<=1 ? " article" : " articles");
+    case "ru": { const a=n%10, b=n%100;
+      const w = (a===1 && b!==11) ? "товар" : (a>=2 && a<=4 && (b<12 || b>14)) ? "товара" : "товаров";
+      return n + " " + w; }
+  }
+  return String(n);
+}
+function locale(){ return (LANGS.find(l=>l.code===lang)||LANGS[0]).locale; }
+function money(v, loc){
+  if (v == null) return "";
+  return new Intl.NumberFormat(loc || locale(), {style:"currency", currency:"TRY", currencyDisplay:"narrowSymbol", minimumFractionDigits:0, maximumFractionDigits:2}).format(v);
+}
+
+/* ---------------- Icons ---------------- */
+function spiralD(cx, cy, turns, gap, start=0.4){
+  const pts = [], steps = Math.round(turns*90);
+  const max = turns*2*Math.PI;
+  for (let i=0;i<=steps;i++){
+    const th = start + (max-start)*i/steps;
+    const r = gap*th/(2*Math.PI);
+    pts.push((cx + r*Math.cos(th)).toFixed(1) + " " + (cy + r*Math.sin(th)).toFixed(1));
+  }
+  return "M" + pts.join(" L");
+}
+const ICONS = {
+  spiral:`<path d="${spiralD(12,12,3.2,3.4,1)}" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>`,
+  egg:`<path d="M12 3c-3.6 0-6.5 6-6.5 10a6.5 6.5 0 0 0 13 0C18.5 9 15.6 3 12 3z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="14" r="2.6" fill="currentColor"/>`,
+  ring:`<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="8" cy="6.8" r=".9" fill="currentColor"/><circle cx="16.6" cy="8.4" r=".9" fill="currentColor"/><circle cx="17" cy="15.6" r=".9" fill="currentColor"/><circle cx="7" cy="16" r=".9" fill="currentColor"/>`,
+  layers:`<path d="M3 7.5q3-2.4 6 0t6 0 6 0M3 12q3-2.4 6 0t6 0 6 0M3 16.5q3-2.4 6 0t6 0 6 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>`,
+  slice:`<path d="M3 16.5 20.5 8.5v10H3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M3 16.5h17.5M8 5.5q1.5-2 3 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>`,
+  tea:`<path d="M8.5 3.5h7c0 3.6-2 4.6-2 7.5s2 3.9 2 7.5h-7c0-3.6 2-4.6 2-7.5s-2-3.9-2-7.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>`,
+  plus:`<path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>`,
+  check:`<path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>`,
+  minus:`<path d="M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>`,
+  pin:`<path d="M12 21s-6.5-6.1-6.5-11a6.5 6.5 0 0 1 13 0c0 4.9-6.5 11-6.5 11z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.3" fill="none" stroke="currentColor" stroke-width="2"/>`,
+  star:`<path d="m12 3.5 2.6 5.4 5.9.8-4.3 4.1 1 5.8L12 16.8l-5.2 2.8 1-5.8-4.3-4.1 5.9-.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>`,
+  phone:`<path d="M6.6 3.5h2.6l1.3 4.2-2 1.4a12.4 12.4 0 0 0 6.4 6.4l1.4-2 4.2 1.3v2.6A2.1 2.1 0 0 1 18.3 20 15.6 15.6 0 0 1 4 5.7a2.1 2.1 0 0 1 2.6-2.2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>`,
+  insta:`<rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17" cy="7" r="1.1" fill="currentColor"/>`
+};
+const icon = (n, size=24) => `<svg width="${size}" height="${size}" viewBox="0 0 24 24" aria-hidden="true">${ICONS[n]||ICONS.ring}</svg>`;
+
+/* ---------------- CSV ---------------- */
+function parseCSV(text){
+  const rows = []; let row = [], f = "", q = false;
+  for (let i=0;i<text.length;i++){
+    const c = text[i];
+    if (q){
+      if (c === '"'){ if (text[i+1] === '"'){ f += '"'; i++; } else q = false; }
+      else f += c;
+    } else if (c === '"') q = true;
+    else if (c === ","){ row.push(f); f = ""; }
+    else if (c === "\n" || c === "\r"){
+      if (c === "\r" && text[i+1] === "\n") i++;
+      row.push(f); rows.push(row); row = []; f = "";
+    } else f += c;
+  }
+  if (f !== "" || row.length){ row.push(f); rows.push(row); }
+  return rows.filter(r => r.some(x => x.trim() !== ""));
+}
+function toItems(text){
+  const rows = parseCSV(text.replace(/^\uFEFF/, ""));
+  if (!rows.length) throw new Error("empty");
+  const head = rows[0].map(h => h.trim().toLowerCase());
+  if (!head.includes("ad_tr") || !head.includes("kategori")) throw new Error("bad header");
+  const out = [];
+  rows.slice(1).forEach((r, idx) => {
+    const o = {}; head.forEach((h,i) => o[h] = (r[i] || "").trim());
+    const status = norm(o.durum || "aktif");
+    if (!o.ad_tr || status === "gizli") return;
+    const names = {}, descs = {};
+    LANGS.forEach(l => { names[l.code] = o["ad_"+l.code] || ""; descs[l.code] = o["aciklama_"+l.code] || ""; });
+    const raw = (o.fiyat || "").replace(/[^\d.,]/g, "");
+    let price = null;
+    if (raw){
+      const v = raw.includes(",") ? raw.replace(/\./g,"").replace(",",".") : raw;
+      const n = parseFloat(v); if (!isNaN(n) && n > 0) price = n;
+    }
+    const cat = norm(o.kategori).replace(/\s+/g,"");
+    out.push({
+      id: cat + "-" + norm(o.ad_tr).replace(/[^a-z0-9]+/g,"-"),
+      cat, order: parseFloat(o.sira) || (idx+1), soldOut: status.startsWith("tukendi"),
+      names, descs, price,
+      allergens: norm(o.alerjenler).split(/[\s,;]+/).filter(Boolean),
+      tags: norm(o.etiketler).split(/[\s,;]+/).filter(Boolean),
+      photo: o.foto || ""
+    });
+  });
+  return out;
+}
+const nm = it => it.names[lang] || it.names.tr;
+const ds = it => it.descs[lang] || it.descs.tr;
+
+/* ---------------- Rendering ---------------- */
+function catDefs(){
+  const known = CATEGORIES.map(c => c.key);
+  const extra = [...new Set(items.map(i => i.cat))].filter(k => !known.includes(k))
+    .map(k => ({key:k, icon:"ring", name:{tr: k.charAt(0).toLocaleUpperCase("tr") + k.slice(1)}}));
+  return CATEGORIES.concat(extra).filter(c => items.some(i => i.cat === c.key));
+}
+const catName = c => c.name[lang] || c.name.en || c.name.tr;
+
+function matches(it, q){
+  for (const f of activeFilters){
+    if (f === "vejetaryen" && !(it.tags.includes("vejetaryen") || it.tags.includes("vegan"))) return false;
+    if (f !== "vejetaryen" && !it.tags.includes(f)) return false;
+  }
+  if (!q) return true;
+  const hay = norm(Object.values(it.names).join(" ") + " " + Object.values(it.descs).join(" "));
+  return q.split(/\s+/).every(w => hay.includes(w));
+}
+
+function itemHTML(it){
+  const name = nm(it), desc = ds(it), qty = +(cart.get(it.id) || 0);
+  const tags = it.tags.filter(k => TAGS[k]).map(k =>
+    `<span class="tag${k==="vegan"||k==="vejetaryen" ? " veg" : ""}">${esc(TAGS[k][lang])}</span>`).join("");
+  const al = it.allergens.map(k => ALLERGENS[k] ? ALLERGENS[k][lang] : k);
+  const allergens = al.length ? `<span class="allergens">${esc(t("contains",{list: al.join(", ")}))}</span>` : "";
+  let action = "";
+  if (it.soldOut) action = `<span class="sold">${esc(t("soldOut"))}</span>`;
+  else if (orderingOn() && it.price != null){
+    action = qty
+      ? `<div class="stepper"><button type="button" data-dec="${it.id}" aria-label="${esc(t("less"))}">${icon("minus",18)}</button><output aria-live="polite">${qty}</output><button type="button" data-inc="${it.id}" aria-label="${esc(t("more"))}">${icon("plus",18)}</button></div>`
+      : `<button type="button" class="add" data-inc="${it.id}" aria-label="${esc(t("add",{name}))}">${icon("plus",20)}</button>`;
+  }
+  return `<li class="item${it.photo?" has-photo":""}${it.soldOut?" is-out":""}">
+    ${it.photo ? `<img class="thumb" src="${esc(it.photo)}" alt="" loading="lazy" decoding="async" onerror="this.remove();this.parentNode&&this.parentNode.classList.remove('has-photo')">` : ""}
+    <div>
+      <div class="item-head"><h3 class="item-name">${esc(name)}</h3>${it.price!=null?`<span class="leader" aria-hidden="true"></span><span class="price">${esc(money(it.price))}</span>`:""}</div>
+      ${desc ? `<p class="item-desc">${esc(desc)}</p>` : ""}
+      ${tags || allergens ? `<div class="meta">${tags}${allergens}</div>` : ""}
+    </div>
+    <div class="item-action">${action}</div>
+  </li>`;
+}
+
+function renderMenu(){
+  const q = norm($("#q").value.trim());
+  const cats = catDefs();
+  let html = "", any = false;
+  cats.forEach(c => {
+    const list = items.filter(i => i.cat === c.key && matches(i, q)).sort((a,b) => a.order - b.order);
+    if (!list.length) return;
+    any = true;
+    html += `<section class="cat" id="cat-${esc(c.key)}" data-cat="${esc(c.key)}">
+      <div class="cat-head">${icon(c.icon, 28)}<h2 class="cat-title">${esc(catName(c))}</h2></div>
+      <ul class="items">${list.map(itemHTML).join("")}</ul></section>`;
+  });
+  if (!any && items.length){
+    html = `<div class="empty"><p>${esc(t("noResults"))}</p><button type="button" id="resetSearch">${esc(t("showAll"))}</button></div>`;
+  }
+  $("#menu").innerHTML = html;
+  renderTabs();
+  observeSections();
+}
+
+function renderTabs(){
+  const shown = [...document.querySelectorAll("#menu .cat")].map(s => s.dataset.cat);
+  const tabs = $("#tabs");
+  tabs.setAttribute("aria-label", t("categories"));
+  tabs.innerHTML = catDefs().filter(c => shown.includes(c.key))
+    .map((c,i) => `<button type="button" class="tab" data-tab="${esc(c.key)}" aria-current="${i===0}">${esc(catName(c))}</button>`).join("");
+}
+
+let observer;
+function observeSections(){
+  if (observer) observer.disconnect();
+  if (!("IntersectionObserver" in window)) return;
+  observer = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) setActiveTab(e.target.dataset.cat); });
+  }, {rootMargin: "-80px 0px -65% 0px"});
+  document.querySelectorAll("#menu .cat").forEach(s => observer.observe(s));
+}
+function setActiveTab(key){
+  document.querySelectorAll(".tab").forEach(b => {
+    const on = b.dataset.tab === key;
+    b.setAttribute("aria-current", on);
+    if (on){
+      const strip = $("#tabs");
+      const left = b.offsetLeft - strip.clientWidth/2 + b.clientWidth/2;
+      strip.scrollTo({left, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
+    }
+  });
+}
+
+function renderChips(){
+  $("#chips").innerHTML = FILTERS.map(f =>
+    `<button type="button" class="chip" data-filter="${f}" aria-pressed="${activeFilters.has(f)}">${esc(TAGS[f][lang])}</button>`).join("");
+}
+
+function renderActions(){
+  const a = [];
+  const maps = CONFIG.MAPS_URL || ("https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(CONFIG.MAPS_QUERY));
+  a.push(`<a class="action" href="${esc(maps)}" target="_blank" rel="noopener">${icon("pin")}${esc(t("directions"))}</a>`);
+  if (CONFIG.GOOGLE_REVIEW_URL) a.push(`<a class="action" href="${esc(CONFIG.GOOGLE_REVIEW_URL)}" target="_blank" rel="noopener">${icon("star")}${esc(t("review"))}</a>`);
+  if (CONFIG.PHONE) a.push(`<a class="action" href="tel:${esc(CONFIG.PHONE.replace(/[^\d+]/g,""))}">${icon("phone")}${esc(t("call"))}</a>`);
+  if (CONFIG.INSTAGRAM) a.push(`<a class="action" href="https://www.instagram.com/${esc(CONFIG.INSTAGRAM)}/" target="_blank" rel="noopener">${icon("insta")}${esc(t("instagram"))}</a>`);
+  $("#actions").innerHTML = a.join("");
+}
+
+function renderStatus(){
+  const h = CONFIG.HOURS, el = $("#status");
+  if (!h || !h.open || !h.close){ el.hidden = true; return; }
+  const parts = new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Istanbul",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date());
+  const m = (+parts.find(p=>p.type==="hour").value % 24)*60 + +parts.find(p=>p.type==="minute").value;
+  const toM = s => { const [a,b] = s.split(":").map(Number); return a*60 + (b||0); };
+  const o = toM(h.open), c = toM(h.close);
+  const open = o < c ? (m >= o && m < c) : (m >= o || m < c);
+  el.hidden = false;
+  el.classList.toggle("is-open", open);
+  $("#statusText").textContent = open ? `${t("openNow")}. ${t("closesAt",{t:h.close})}` : `${t("closedNow")}. ${t("opensAt",{t:h.open})}`;
+}
+
+function renderNotice(kind){
+  const el = $("#notice");
+  if (kind === "demo") el.innerHTML = `<div class="notice" role="status"><span>${esc(t("demo"))}</span></div>`;
+  else if (kind === "offline") el.innerHTML = `<div class="notice" role="status"><span>${esc(t("offline"))}</span><button type="button" data-retry>${esc(t("retry"))}</button></div>`;
+  else el.innerHTML = "";
+}
+
+/* ---------------- Cart ---------------- */
+function orderingOn(){ return !!CONFIG.WHATSAPP; }
+function cartLines(){
+  const out = [];
+  cart.forEach((q, id) => { const it = items.find(i => i.id === id); if (it && !it.soldOut && it.price != null && q > 0) out.push({it, q:+q}); });
+  return out;
+}
+function saveCart(){ store.set("bz-cart", Object.fromEntries(cart)); }
+function setQty(id, q){
+  if (q <= 0) cart.delete(id); else cart.set(id, Math.min(q, 99));
+  saveCart(); renderMenuKeepScroll(); renderCart();
+}
+function renderMenuKeepScroll(){ const y = window.scrollY; renderMenu(); window.scrollTo(0, y); }
+function renderCart(){
+  const lines = cartLines();
+  // drop items that no longer exist
+  [...cart.keys()].forEach(id => { if (!lines.some(l => l.it.id === id) && items.length) cart.delete(id); });
+  const n = lines.reduce((s,l) => s + l.q, 0);
+  const total = lines.reduce((s,l) => s + l.q*l.it.price, 0);
+  $("#cartbar").hidden = !orderingOn() || n === 0;
+  $("#cartCount").textContent = n;
+  $("#cartLabel").textContent = t("viewOrder");
+  $("#cartCount").setAttribute("aria-label", plural(n));
+  $("#cartTotal").textContent = money(total);
+  $("#lines").innerHTML = lines.map(l => `<li class="line"><span class="n">${esc(nm(l.it))}</span>
+    <div class="stepper"><button type="button" data-dec="${l.it.id}" aria-label="${esc(t("less"))}">${icon("minus",18)}</button><output>${l.q}</output><button type="button" data-inc="${l.it.id}" aria-label="${esc(t("more"))}">${icon("plus",18)}</button></div>
+    <span class="p">${esc(money(l.q*l.it.price))}</span></li>`).join("");
+  $("#sheetTotal").textContent = money(total);
+  updateSendLink();
+  if (n === 0 && $("#cartDialog").open) $("#cartDialog").close();
+}
+function updateSendLink(){
+  const lines = cartLines();
+  const total = lines.reduce((s,l) => s + l.q*l.it.price, 0);
+  const tr = v => money(v, "tr-TR");
+  let msg = "Merhaba, menüden sipariş vermek istiyorum:\n\n";
+  msg += lines.map(l => `${l.q} × ${l.it.names.tr} (${tr(l.q*l.it.price)})`).join("\n");
+  msg += `\n\nToplam: ${tr(total)}`;
+  const p = $("#pickup").value; if (p) msg += `\nTeslim alma: ${p}`;
+  const note = $("#note").value.trim(); if (note) msg += `\nNot: ${note}`;
+  if (lang !== "tr") msg += `\n\nMüşteri dili: ${LANG_NAME_TR[lang]}`;
+  $("#send").href = "https://wa.me/" + CONFIG.WHATSAPP.replace(/\D/g,"") + "?text=" + encodeURIComponent(msg);
+}
+
+/* ---------------- Language ---------------- */
+function detectLang(){
+  const fromUrl = new URLSearchParams(location.search).get("lang");
+  const saved = store.get("bz-lang");
+  const codes = LANGS.map(l => l.code);
+  if (fromUrl && codes.includes(fromUrl)) return fromUrl;
+  if (saved && codes.includes(saved)) return saved;
+  for (const l of (navigator.languages || [navigator.language || "en"])){
+    const c = String(l).slice(0,2).toLowerCase();
+    if (codes.includes(c)) return c;
+  }
+  return "en";
+}
+function applyLang(code, persist){
+  lang = code;
+  if (persist) store.set("bz-lang", code);
+  document.documentElement.lang = code;
+  document.title = "Boyozcum | " + t("title");
+  document.querySelectorAll("[data-i18n]").forEach(el => el.textContent = t(el.dataset.i18n));
+  document.querySelectorAll("[data-i18n-label]").forEach(el => el.setAttribute("aria-label", t(el.dataset.i18nLabel)));
+  $("#q").placeholder = t("search");
+  $("#q").setAttribute("aria-label", t("search"));
+  $("#qClear").setAttribute("aria-label", t("clearSearch"));
+  $("#langCode").textContent = code.toUpperCase();
+  $("#langBtn").setAttribute("aria-label", t("language") + ": " + LANGS.find(l=>l.code===code).name);
+  $("#langList").innerHTML = LANGS.map(l => `<li><button type="button" lang="${l.code}" data-lang="${l.code}" aria-current="${l.code===code}"><span>${l.name}</span>${l.code===code ? icon("check",20) : ""}</button></li>`).join("");
+  renderChips(); renderActions(); renderStatus(); renderNotice(source === "demo" ? "demo" : source === "offline" ? "offline" : "");
+  if (items.length) renderMenu();
+  renderCart();
+}
+
+/* ---------------- Data loading ---------------- */
+const CACHE_KEY = "bz-menu-cache-v1";
+function setItems(list, src){
+  items = list; source = src;
+  renderNotice(src === "demo" ? "demo" : src === "offline" ? "offline" : "");
+  renderMenu(); renderCart();
+}
+async function load(){
+  if (!CONFIG.SHEET_CSV_URL){ setItems(toItems(DEMO_CSV), "demo"); return; }
+  const cached = store.get(CACHE_KEY);
+  if (cached && cached.csv){ try{ setItems(toItems(cached.csv), "cache"); }catch(e){} }
+  try{
+    const url = CONFIG.SHEET_CSV_URL + (CONFIG.SHEET_CSV_URL.includes("?") ? "&" : "?") + "_=" + Math.floor(Date.now()/60000);
+    const r = await fetch(url, {cache:"no-store"});
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const text = await r.text();
+    const list = toItems(text);
+    store.set(CACHE_KEY, {csv:text, t:Date.now()});
+    setItems(list, "live");
+  }catch(err){
+    console.warn("Menü yüklenemedi:", err);
+    if (items.length) { source = "offline"; renderNotice("offline"); }
+    else $("#menu").innerHTML = `<div class="empty error"><p>${esc(t("loadError"))}</p><button type="button" data-retry>${esc(t("retry"))}</button></div>`;
+  }
+}
+
+/* ---------------- Events ---------------- */
+document.addEventListener("click", e => {
+  const inc = e.target.closest("[data-inc]"), dec = e.target.closest("[data-dec]");
+  if (inc){ setQty(inc.dataset.inc, (+cart.get(inc.dataset.inc) || 0) + 1); return; }
+  if (dec){ setQty(dec.dataset.dec, (+cart.get(dec.dataset.dec) || 0) - 1); return; }
+  const tab = e.target.closest("[data-tab]");
+  if (tab){ const s = document.getElementById("cat-" + tab.dataset.tab); if (s) s.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"}); setActiveTab(tab.dataset.tab); return; }
+  const chip = e.target.closest("[data-filter]");
+  if (chip){ const f = chip.dataset.filter; activeFilters.has(f) ? activeFilters.delete(f) : activeFilters.add(f); renderChips(); renderMenu(); return; }
+  const l = e.target.closest("[data-lang]");
+  if (l){ applyLang(l.dataset.lang, true); $("#langDialog").close(); return; }
+  if (e.target.closest("[data-close]")){ e.target.closest("dialog").close(); return; }
+  if (e.target.closest("[data-retry]")){ $("#menu").innerHTML = `<p class="loading">…</p>`; load(); return; }
+  if (e.target.closest("#resetSearch")){ $("#q").value = ""; $("#qClear").hidden = true; activeFilters.clear(); renderChips(); renderMenu(); return; }
+});
+document.querySelectorAll("dialog").forEach(d => d.addEventListener("click", e => { if (e.target === d) d.close(); }));
+$("#langBtn").addEventListener("click", () => $("#langDialog").showModal());
+$("#cartOpen").addEventListener("click", () => { renderCart(); $("#cartDialog").showModal(); });
+$("#clearCart").addEventListener("click", () => { cart.clear(); saveCart(); renderMenu(); renderCart(); });
+$("#pickup").addEventListener("input", updateSendLink);
+$("#note").addEventListener("input", updateSendLink);
+let qTimer;
+$("#q").addEventListener("input", () => {
+  $("#qClear").hidden = !$("#q").value;
+  clearTimeout(qTimer); qTimer = setTimeout(renderMenu, 120);
+});
+$("#qClear").addEventListener("click", () => { $("#q").value = ""; $("#qClear").hidden = true; renderMenu(); $("#q").focus(); });
+
+/* ---------------- Hero spiral ---------------- */
+(function(){
+  const d = spiralD(200, 200, 5.2, 36, 0.9);
+  const coil = $("#coil"), edge = $("#coilEdge");
+  coil.setAttribute("d", d); edge.setAttribute("d", d);
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  [coil, edge].forEach(p => {
+    const len = p.getTotalLength();
+    p.style.strokeDasharray = len; p.style.strokeDashoffset = len;
+    p.animate([{strokeDashoffset: len}, {strokeDashoffset: 0}], {duration: 1600, easing: "cubic-bezier(.3,.7,.2,1)", fill: "forwards"});
+  });
+})();
+
+/* ---------------- Start ---------------- */
+applyLang(detectLang(), false);
+load();
+setInterval(renderStatus, 60000);
+</script>
+</body>
+</html>
